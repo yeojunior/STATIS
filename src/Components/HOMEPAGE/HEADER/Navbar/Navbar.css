@@ -1,0 +1,92 @@
+
+
+/* debut de la stylisation de la navbar */
+
+nav{
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+  box-shadow: 0px 12px 17px rgba(0, 0, 0, 0.1);
+}
+nav h1{
+  color: #FFC107;
+}
+
+li .btn_sign a{
+  color: red;
+}
+ ul{
+  display: flex;
+  gap: 2vw;
+}
+
+#Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#Navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+ gap: 20px;
+}
+#Navbar li a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f70707;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+#mobile{
+  display: none;
+}
+#mobile i{
+  color: #000;
+}
+
+
+@media (max-width: 768px) {
+    #mobile{
+      display: block;
+    }
+
+    #Navbar{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content:flex-start ;
+      position: fixed;
+      top: 104px;
+      right: -300px;
+      width: 200px;
+      height: 100vh;
+      background-color: #2a3239;
+      box-shadow: 0 40px 60px rgba(0, 0,0, 0.1);
+      padding: 40px 0 0 10px;
+      transition: 0.3s ease-in-out;
+      z-index: 3;
+    }
+    #Navbar.Active{
+      right: 0px;
+    }
+    #Navbar li{
+      margin-bottom: 25px;
+    }
+   
+    #mobile i{
+      font-size: 25px;
+      cursor: pointer;
+    }
+}
+
+/* fin de la stylisation de la navbar */
+

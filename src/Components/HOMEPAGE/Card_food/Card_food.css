@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+}
+.Bg_container{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.big_card {
+    display: flex;
+    flex-direction: column;
+     border-radius: 20px;
+    background-color:var(--orange);
+    width: calc(250px - 20px); /* Largeur de chaque carte (25% de la largeur du conteneur moins les marges) */
+    margin: 10px; /* Marge autour de chaque carte */
+}
+.list-plats1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optionnel : pour centrer verticalement */
+}
+
+.list-plats1 {
+    text-align: center;
+}
+/* .list-plats1 img {
+    display: inline-block;
+} */
+
+.list-plats1 img{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.list-text{
+    line-height: 1PX;
+}
+.list-text h4{
+    font-weight: bolder;
+    font-size: 30px;
+    color: var(--white);
+    position: relative;
+    left: 10PX;
+}
+.list-text p{
+    position: relative;
+    font-size: 14px;
+    font-weight: bolder;
+    left: 10PX;
+    bottom: 2px;
+}
+.prix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.prix h2{
+    color: var(--white);
+    position: relative;
+    bottom: 10px;
+}
+.prix h2 span{
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+.prix i{
+    color: var(--grey);
+    font-size: 24px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 430px)  {
+    .container {
+      justify-content: space-between; /* Espacement égal entre les cartes */
+    }
+  
+    .big_card {
+      width: calc(50% - 20px); /* Largeur de 50% de la largeur du conteneur moins les marges */
+    }
+    .list-plats1 img{
+        width: 130px;
+        height: 130px;
+       
+    }
+    .list-text h4{
+        font-size: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    .container {
+      justify-content: space-between; /* Espacement égal entre les cartes */
+    }
+  
+    .big_card {
+      width: calc(48% - 20px); /* Largeur de 50% de la largeur du conteneur moins les marges */
+    }
+    .list-plats1 img{
+        width: 100px;
+        height: 100px;
+       
+     }
+    .list-text h4{
+        font-size: 16px
+     }
+     .list-text p{
+        font-size: 15px;
+     }
+     .list-text{
+        line-height: 15px;
+     }
+
+
+     .prix h2{
+        bottom: 5px;
+        font-size: 13px;
+    }
+    .prix h2 span{
+        bottom: 5px;
+        font-size: 13px;
+    }
+    .prix i{
+        color: var(--grey);
+        font-size: 18px;
+    }
+     
+    }  
+  

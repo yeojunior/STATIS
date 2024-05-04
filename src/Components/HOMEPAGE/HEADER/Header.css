@@ -1,0 +1,150 @@
+
+.home_title h1{
+    font-size: 45px;
+    text-align: center;
+}
+.search_bar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.search_bar input{
+    outline: none;
+    border-radius: 30px;
+    height: 40px;
+    border: 1px solid #f7f7f7;
+    padding-left: 50px;
+    width: 40vw;
+
+}
+.search_bar i{
+    position: relative;
+    left: 1.8rem;
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+    
+}
+.menu .plats{
+    background-color: var(--orange);
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.menu .boisson,.menu .dessert{
+    background-color: var(--white);
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.image2{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2 img{
+    position: relative;
+    width: 85vw;
+    height: 60vh;
+    right: 4rem;
+    object-fit: cover;
+    background-size: cover;
+    margin-left: 10rem;
+}
+.image2 p{
+    position: absolute;
+    bottom: 10px; 
+    left: 8rem; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    font-size: 30px;
+    z-index: 2;
+    padding: 5px; 
+}
+
+
+/* carousel css */
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+/* carousel fin css */
+
+
+
+@media screen and (min-width: 321px) and (max-width: 430px)  {
+    .image2{
+       margin-left: 1.3rem;
+    }
+
+    
+    .menu .boisson,.menu .dessert,.menu .plats{
+            width: 100px;
+    }
+
+    .image2 img {
+      width: 90vw; 
+      height: 30vh; 
+      right: 0; 
+      margin-left: 0; 
+    }
+    .image2 p{
+        position: absolute;
+        width: 50vw;
+        bottom: 0px; 
+        left: 2rem; 
+        color: white; 
+        background-color: rgba(0, 0, 0, 0.5); 
+        font-size: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    .menu .boisson,.menu .dessert,.menu .plats{
+        width: 100px;
+}
+    .image2 img {
+      width: 80vw;
+      height: 30VH; 
+      right: 0; 
+      margin-left: 0; 
+    }
+    .image2{
+        margin-left: 1.3rem;
+     }
+    .image2 p{
+        position: absolute;
+        width: 50vw;
+        bottom: 0px; 
+        left: 2rem; 
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); 
+        font-size: 15px;
+    }
+  }
+  

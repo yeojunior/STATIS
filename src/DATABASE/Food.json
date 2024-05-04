@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+      "name": "Burger 1pcs",
+      "description": "Plat de résistance",
+      "price": 8000,
+      "currency": "fcfa"
+    },
+    {
+      "id": 2,
+      "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+      "name": "Pizza",
+      "description": "Délicieuse pizza garnie",
+      "price": 12000,
+      "currency": "fcfa"
+    },
+    {
+        "id": 3,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Burger 1pcs",
+        "description": "Plat de résistance",
+        "price": 8000,
+        "currency": "fcfa"
+      },
+      {
+        "id": 4,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Pizza",
+        "description": "Délicieuse pizza garnie",
+        "price": 12000,
+        "currency": "fcfa"
+      },
+      {
+        "id": 5,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Burger 1pcs",
+        "description": "Plat de résistance",
+        "price": 8000,
+        "currency": "fcfa"
+      },
+      {
+        "id": 6,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Pizza",
+        "description": "Délicieuse pizza garnie",
+        "price": 12000,
+        "currency": "fcfa"
+      },
+      {
+        "id": 7,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Burger 1pcs",
+        "description": "Plat de résistance",
+        "price": 8000,
+        "currency": "fcfa"
+      },
+      {
+        "id": 8,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Pizza",
+        "description": "Délicieuse pizza garnie",
+        "price": 12000,
+        "currency": "fcfa"
+      },
+      {
+        "id": 9,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Burger 1pcs",
+        "description": "Plat de résistance",
+        "price": 8000,
+        "currency": "fcfa"
+      },
+      {
+        "id": 10,
+        "image": "https://i.pinimg.com/564x/b6/ff/6f/b6ff6f1069bdb3ec62a6e40a7177a397.jpg",
+        "name": "Pizza",
+        "description": "Délicieuse pizza garnie",
+        "price": 12000,
+        "currency": "fcfa"
+      }
+  ]
+  

@@ -1,0 +1,106 @@
+.Connexion_card{
+    background-color: var(--orange);
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Connexion_card
+h1{
+    font-size: 40px;
+}
+span{
+    position: relative;
+    left: 100px;
+}
+.Tape_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    padding-left: 55px; /* Pour que le texte ne soit pas caché par l'icône */
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+
+  }
+  
+
+  .message-icon {
+    position: absolute; 
+    background-color: #333333;
+    color: white; /* Couleur intérieure de l'icône */
+    font-size: 30px; /* Ajustez la taille de l'icône */
+    border: 2px solid white; /* Contour blanc */
+    border-radius: 4px;/* Pour rendre l'icône circulaire */
+    padding: 10px;
+
+  }
+  
+  button{
+    background-color: #333333;
+    width: 410px;
+    border-radius: 4px;
+    color: var(--white);
+    outline: none;
+    cursor: pointer;
+  }
+  button p{
+    font-size: 16PX;
+    font-weight: bolder;
+  }
+  .btn_connexion{
+    background-color: transparent;
+    outline: none;
+    border-width: 1px;
+    color: #333333;
+    font-weight: bolder;
+  }
+  .or{
+    display: flex;
+    gap: 1rem;
+  }
+  .line {
+    border: 0px solid black; /* Couleur de la ligne */
+   width: 100px;
+   background-color: #000;
+  }
+
+  @media screen and (max-width: 430px) {
+    .input-container input { 
+        width: 250px;
+    
+      }
+      .Connexion_card{
+        height: 110vh;
+      }
+      .Tape_text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        width: 314px;
+      }
+      h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    span{
+        position: relative;
+        left: 0px;
+    }
+  }
